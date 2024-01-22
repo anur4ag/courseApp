@@ -1,0 +1,122 @@
+/* Card.css */
+
+.card {
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 10px;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(54, 143, 209, 1), 0 0 16px rgba(255, 252, 226, 0.8);
+  
+    @media screen and (max-width: 767px) {
+      width: 100%;
+    }
+  
+    &:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .card-description {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 16px;
+  }
+  
+  .card-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00b894;
+  }
+  .edit-button {
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    background-color:white; /* Yellow background color */
+    color: black; /* Text color */
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #FFF200;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: darkgreen; 
+      color: white;/* Brighter yellow on hover */
+      border: none;
+    }
+
+  }
+  .delete-button{
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: white; /* Yellow background color */
+    color: black; /* Text color */
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #FFF200; /* Add grey border */
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: darkred; /* Brighter yellow on hover */
+      color: white;
+      border: none;
+    }
+  }
+  .buy-button {
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    background-color:skyblue; /* Yellow background color */
+    color: white; /* Text color */
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: blue; 
+      color: white;/* Brighter yellow on hover */
+      border: none;
+    }
+
+  }
+  .view-button {
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    background-color:#fe2c54; /* Yellow background color */
+    color: white; /* Text color */
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    }
+  
+    
