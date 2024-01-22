@@ -12,9 +12,9 @@ CourseShare is a web application that allows instructors to create and sell onli
 ## Demo
 
 
+https://github.com/anur4ag/courseApp/assets/71564387/b8fa85b6-5d02-4306-bb91-a5e3c46ec8dc
 
 
-https://github.com/DeadmanAbir/Course-Seller-2/assets/102755654/5a764fe1-fbb3-4a50-90b3-cc8afa1aec9f
 
 ## Tech Stack-
 
