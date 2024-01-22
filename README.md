@@ -1,4 +1,4 @@
-# CourseShare
+# Course Listing Application
 
 CourseShare is a web application that allows instructors to create and sell online courses. Instructors can create their own courses, and set their own prices. Instructors can also browse and purchase courses from other creators.
 
